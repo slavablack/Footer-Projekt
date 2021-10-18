@@ -1,0 +1,129 @@
+/* Begin Css-Veaceslav */
+
+body{display: inline;
+    
+}
+
+footer{padding: 10px 20px;
+background: #666;
+color: aliceblue;
+text-align: end;}
+
+#div-footer{ 
+
+text-align: left;
+
+}
+
+
+
+.button-footer{ background-color: aquamarine;
+    padding: 4px 3px;
+font-size: 15px;
+border: none;
+}
+
+.button-footer:hover{background-color: #d69191;
+    color: white;}
+
+    .href-footer{color: rgb(6, 7, 5);}
+
+    #body-uberuns{background-image: url(./u.avif);
+    background-size: cover;}
+
+    #divuber{width: 350px;
+    height: auto;
+background-color: rebeccapurple;
+border: 3px solid red;
+margin-top: 15rem;
+animation-name: about;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+
+}
+
+@keyframes about{
+    from { border-color: salmon;
+
+    }
+    to{border-color: rgb(96, 123, 244);}
+}
+
+#h2uber{text-transform: uppercase;
+text-decoration: underline;
+font-family: 'Lato', sans-serif;}
+
+#h4uber{
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+#auber{
+    color: whitesmoke;
+}
+
+#buttonuber{background-color: black;
+    border-radius: 12px;
+    padding: 2px 16px;
+font-size: 1rem;}
+
+#iuber{background-color: coral;}
+
+#asideuber{ position: relative;
+    background-color: aqua;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    float: right;
+    animation-name: example;
+    animation-duration: 4s;
+animation-iteration-count: infinite;}
+
+#puber{ margin-top: 9rem;
+color: rgb(37, 27, 46);}
+
+/* 
+    @keyframes example {
+        0%   {background-color:red; left:0px; top:0px;}
+        25%  {background-color:yellow; left:-200px; top:0px;}
+        50%  {background-color:blue; left:200px; top:-200px;}
+        75%  {background-color:green; left:0px; top:200px;}
+        100% {background-color:red; left:0px; top:0px;}
+      } */
+
+#body-kontakt{
+    background-image: url(./mita.avif);
+    
+background-size: cover;}
+
+#div-kontakt{width: 99%;
+ height: auto;
+background-color: darkgrey;
+border: 5px solid black;
+/* box-shadow: 5px 10px #c4a5a5; */
+margin-top: 3rem; 
+animation-name: contact2;
+animation-duration: 4s;
+animation-iteration-count: infinite;}
+
+@keyframes contact2 {
+    from {border-color: red;}
+    to {border-color: yellow;}
+  }
+
+
+#home-kontakt{background-color: floralwhite ;
+    /* padding: 32px 16px; */
+font-size: 1.5rem;
+animation-name: contact;
+animation-duration: 3s;
+animation-iteration-count: infinite;}
+
+.li-kontakt{text-decoration: underline;}
+
+@keyframes contact {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+
+/* End CSS Veaceslav */
+
